@@ -105,7 +105,7 @@ export default function Dashbord() {
             onClick={() => setIsDarkMode(!isDarkMode)}
             className="text-sm px-3 py-1 border rounded-full bg-gray-200 dark:bg-gray-700 dark:text-white"
           >
-            {isDarkMode ? "☀️ Light" : "🌙 Dark"}
+            {isDarkMode ? "🌙 Dark" : "☀️ Light"}
           </button>
         </div>
 
@@ -123,6 +123,8 @@ export default function Dashbord() {
           >
             Add
           </button>
+        </div>
+        <div style={{ width: '50px', height: '50px' }}>
         </div>
 
         <div className="flex justify-center gap-2 mb-6">
@@ -146,6 +148,7 @@ export default function Dashbord() {
           {filteredTasks.map((t) => (
             <li
               key={t.id}
+              style={{ marginBottom: "25px" }}
               className="flex justify-between items-center border-b border-gray-300 dark:border-gray-700 py-2"
             >
               <label className="flex items-center space-x-2 cursor-pointer">
@@ -216,7 +219,9 @@ export default function Dashbord() {
                   </button>
                 </>
               )}
+              
             </li>
+            
           ))}
         </ul>
       </div>
