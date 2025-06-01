@@ -1,12 +1,46 @@
-# React + Vite
+# 📝 Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive Todo App built with **React** and **TailwindCSS**, designed to help you manage tasks efficiently with modern UI and intuitive features.
 
-Currently, two official plugins are available:
+### 🚀 Live Demo
+🔗 [View Live App](https://todo-app-nu-roan-54.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Add, edit, and delete todos
+- ✅ Mark tasks as completed or active
+- ✅ Filter tasks (All / Active / Completed)
+- ✅ Save todos in `localStorage` (tasks persist on refresh)
+- 🔐 Firebase Auth integration (Login / Signup) *(coming soon)*
+- 🧑‍💻 Personalized dashboard after login *(coming soon)*
+- 🌙 Dark mode / theming *(optional enhancement)*
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite
+- **Styling:** TailwindCSS
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **Routing:** React Router *(if used)*
+- **Auth (Upcoming):** Firebase Authentication
+- **Persistence:** localStorage
+
+---
+
+## 📂 Folder Structure (example)
+
+todo-app/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── hooks/
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── package.json
+├── tailwind.config.js
+└── README.md
